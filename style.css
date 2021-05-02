@@ -1,0 +1,23 @@
+body {
+    background-color:#ffb030;
+}
+h3 {
+    font-size: 25px !important;
+}
+.buttons{
+    background-color: black;
+    color: white !important;
+}
+.buttons:hover{
+    background-color: rgb(39, 38, 38);
+}
+canvas{
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors {
+    0% {box-shadow: 10px 10px 38px yellow;}
+    50% {box-shadow: 1px 1px 38px red;}
+    100% {box-shadow: 10px 10px 38px yellow;}
+}
